@@ -1,10 +1,10 @@
 {
-  "name": "ngx-device-detector",
-  "version": "4.0.1",
+  "name": "@dev-kokotree/ngx-device-detector",
+  "version": "4.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KoderLabs/ngx-device-detector.git"
+    "url": "https://github.com/dev-kokotree/ngx-device-detector.git"
   },
   "author": {
     "name": "Muhammad Ahsan Ayaz",

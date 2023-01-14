@@ -1,3 +1,83 @@
+## 4.0.1 (2023-01-14)
+
+
+### Bug Fixes
+
+* **210:** fix Chrome and Safari not detected as desktop anymore ([cea0f9e](https://github.com/KoderLabs/ngx-device-detector/commit/cea0f9edcfc77620b3b8621af23cfbf39811f645))
+* allow angular 8 peer dependency ([6bb7f13](https://github.com/KoderLabs/ngx-device-detector/commit/6bb7f13d19f279231b46773c7a218111c2767a4f))
+* Angular Universal issue fixed ([7362dc9](https://github.com/KoderLabs/ngx-device-detector/commit/7362dc93403ae3d47062434f803cb588569c56f7)), closes [#22](https://github.com/KoderLabs/ngx-device-detector/issues/22) [#23](https://github.com/KoderLabs/ngx-device-detector/issues/23)
+* **backward-compat:** fix angular12 backward compat ([d4ddcaa](https://github.com/KoderLabs/ngx-device-detector/commit/d4ddcaa9142ed885e8af55f99314fd716127e6ad))
+* **ci:** fix ci build for build:both:ci npm script ([a17efb7](https://github.com/KoderLabs/ngx-device-detector/commit/a17efb77e37c52a9a0f0554a05434223b0b1ab97))
+* **ci:** fix ci builds by bumping to nodejs 12.20 ([ea7dd1c](https://github.com/KoderLabs/ngx-device-detector/commit/ea7dd1c2d4e4dceb83edcd4783951f6804bd3817))
+* **ci:** fix travis.yml to use jest tests ([6ec4052](https://github.com/KoderLabs/ngx-device-detector/commit/6ec4052f6c037157d4ecdc9b17ef89d00c8a09d1))
+* **ci:** fixing the xvfb service for CI ([f825cae](https://github.com/KoderLabs/ngx-device-detector/commit/f825cae69aec6d62d9197df90c3be84e197a8004))
+* **demo:** fix demo deployment in CI ([b7f79c8](https://github.com/KoderLabs/ngx-device-detector/commit/b7f79c8291d4048a41969b4c1d2b8e1c1c7e7963))
+* detect tesla ([2d9c0f4](https://github.com/KoderLabs/ngx-device-detector/commit/2d9c0f483667e74eccdc6d51f43c2d74cbc2ce58))
+* detection samsung galaxy A tab using SM-T290 ([4bb91fc](https://github.com/KoderLabs/ngx-device-detector/commit/4bb91fc9e3287ba30a2c493dc1807fe7a3934741))
+* **device-detector-service:** fix navigator breaking server side builds ([5224b40](https://github.com/KoderLabs/ngx-device-detector/commit/5224b40783c1a57c24f1038a7364e8902bdbe099))
+* **device-detector-service:** fix window.matchMedia is not a function ([800ba15](https://github.com/KoderLabs/ngx-device-detector/commit/800ba15a61f8f7ea389ecc3887a5e457ae332f00))
+* **device-detector-service:** iPhone is identified as tablet ([ae4dffa](https://github.com/KoderLabs/ngx-device-detector/commit/ae4dffad259224a7abb9c8f2ebc5dd2b6b2b1a2c))
+* **device-name:** Fix device name being Unkown ([17f5f07](https://github.com/KoderLabs/ngx-device-detector/commit/17f5f07f1c923345612463b6c8535b0f3de5064b))
+* improve readme universal service ([30e89b7](https://github.com/KoderLabs/ngx-device-detector/commit/30e89b7d484b22370c1c61fc16457e879599c561))
+* **ios13 Tablet:** fix for detecting iOS 13 for Tablet ([f427a52](https://github.com/KoderLabs/ngx-device-detector/commit/f427a52daa95a4e33b885b6ec6a6a7143657d4e2))
+* **iPad ios13:** fix the issue with detecting iOS13 ([67f0fb0](https://github.com/KoderLabs/ngx-device-detector/commit/67f0fb05e472351f0ef92f3d7984041ea77737bf))
+* **jest:** fix jest env issues for running testS ([cfe4e55](https://github.com/KoderLabs/ngx-device-detector/commit/cfe4e557c7dc29a2cb560b6dddbaf6dfef34adf0))
+* **tests:** fix tests ([493f1e2](https://github.com/KoderLabs/ngx-device-detector/commit/493f1e2495225c76c2f2d0162f2bee1dfb956412))
+* update nguniversal/express-engine token path ([b7efede](https://github.com/KoderLabs/ngx-device-detector/commit/b7efeded793bd21ec24fc3e40f2fa732f0423bde))
+* use inject for REQUEST token - universal ([06c6425](https://github.com/KoderLabs/ngx-device-detector/commit/06c64255f3cbea5ce2dad96b8448f1d5404120bf))
+
+
+### Features
+
+* **angular:** upgrade to angular 14 ([ec1ca8e](https://github.com/KoderLabs/ngx-device-detector/commit/ec1ca8ea2e2fa5ce7499d5cfc758b25f9ec22e92))
+* **ie11:** remove IE11 compatiblity information ([84f0d74](https://github.com/KoderLabs/ngx-device-detector/commit/84f0d744475c8ad6b83f32b161c7e7460687239b))
+* **lib:** moved to angular cli generation ([b55b52c](https://github.com/KoderLabs/ngx-device-detector/commit/b55b52c6d1e5bb0bc70b96c51ad3d29394be5289))
+* **ng5-upgrade:** Updated officially to Angular5 ([194d6fb](https://github.com/KoderLabs/ngx-device-detector/commit/194d6fb5e8ceed5d292345587b7dd93e5f3235de))
+* **ssr-demo:** add ssr demo ([e0cf90a](https://github.com/KoderLabs/ngx-device-detector/commit/e0cf90adcdbcd33d3240fe68e3b2df2c0fc56aa5))
+* **support-ie11:** make necessary changes to have the app run on ie11 ([cbca0c5](https://github.com/KoderLabs/ngx-device-detector/commit/cbca0c559e20cdfee0f955c9070645a17e99ce95))
+
+
+
+## 4.0.1 (2023-01-14)
+
+
+### Bug Fixes
+
+* **210:** fix Chrome and Safari not detected as desktop anymore ([cea0f9e](https://github.com/KoderLabs/ngx-device-detector/commit/cea0f9edcfc77620b3b8621af23cfbf39811f645))
+* allow angular 8 peer dependency ([6bb7f13](https://github.com/KoderLabs/ngx-device-detector/commit/6bb7f13d19f279231b46773c7a218111c2767a4f))
+* Angular Universal issue fixed ([7362dc9](https://github.com/KoderLabs/ngx-device-detector/commit/7362dc93403ae3d47062434f803cb588569c56f7)), closes [#22](https://github.com/KoderLabs/ngx-device-detector/issues/22) [#23](https://github.com/KoderLabs/ngx-device-detector/issues/23)
+* **backward-compat:** fix angular12 backward compat ([d4ddcaa](https://github.com/KoderLabs/ngx-device-detector/commit/d4ddcaa9142ed885e8af55f99314fd716127e6ad))
+* **ci:** fix ci build for build:both:ci npm script ([a17efb7](https://github.com/KoderLabs/ngx-device-detector/commit/a17efb77e37c52a9a0f0554a05434223b0b1ab97))
+* **ci:** fix ci builds by bumping to nodejs 12.20 ([ea7dd1c](https://github.com/KoderLabs/ngx-device-detector/commit/ea7dd1c2d4e4dceb83edcd4783951f6804bd3817))
+* **ci:** fix travis.yml to use jest tests ([6ec4052](https://github.com/KoderLabs/ngx-device-detector/commit/6ec4052f6c037157d4ecdc9b17ef89d00c8a09d1))
+* **ci:** fixing the xvfb service for CI ([f825cae](https://github.com/KoderLabs/ngx-device-detector/commit/f825cae69aec6d62d9197df90c3be84e197a8004))
+* **demo:** fix demo deployment in CI ([b7f79c8](https://github.com/KoderLabs/ngx-device-detector/commit/b7f79c8291d4048a41969b4c1d2b8e1c1c7e7963))
+* detect tesla ([2d9c0f4](https://github.com/KoderLabs/ngx-device-detector/commit/2d9c0f483667e74eccdc6d51f43c2d74cbc2ce58))
+* detection samsung galaxy A tab using SM-T290 ([4bb91fc](https://github.com/KoderLabs/ngx-device-detector/commit/4bb91fc9e3287ba30a2c493dc1807fe7a3934741))
+* **device-detector-service:** fix navigator breaking server side builds ([5224b40](https://github.com/KoderLabs/ngx-device-detector/commit/5224b40783c1a57c24f1038a7364e8902bdbe099))
+* **device-detector-service:** fix window.matchMedia is not a function ([800ba15](https://github.com/KoderLabs/ngx-device-detector/commit/800ba15a61f8f7ea389ecc3887a5e457ae332f00))
+* **device-detector-service:** iPhone is identified as tablet ([ae4dffa](https://github.com/KoderLabs/ngx-device-detector/commit/ae4dffad259224a7abb9c8f2ebc5dd2b6b2b1a2c))
+* **device-name:** Fix device name being Unkown ([17f5f07](https://github.com/KoderLabs/ngx-device-detector/commit/17f5f07f1c923345612463b6c8535b0f3de5064b))
+* improve readme universal service ([30e89b7](https://github.com/KoderLabs/ngx-device-detector/commit/30e89b7d484b22370c1c61fc16457e879599c561))
+* **ios13 Tablet:** fix for detecting iOS 13 for Tablet ([f427a52](https://github.com/KoderLabs/ngx-device-detector/commit/f427a52daa95a4e33b885b6ec6a6a7143657d4e2))
+* **iPad ios13:** fix the issue with detecting iOS13 ([67f0fb0](https://github.com/KoderLabs/ngx-device-detector/commit/67f0fb05e472351f0ef92f3d7984041ea77737bf))
+* **jest:** fix jest env issues for running testS ([cfe4e55](https://github.com/KoderLabs/ngx-device-detector/commit/cfe4e557c7dc29a2cb560b6dddbaf6dfef34adf0))
+* **tests:** fix tests ([493f1e2](https://github.com/KoderLabs/ngx-device-detector/commit/493f1e2495225c76c2f2d0162f2bee1dfb956412))
+* update nguniversal/express-engine token path ([b7efede](https://github.com/KoderLabs/ngx-device-detector/commit/b7efeded793bd21ec24fc3e40f2fa732f0423bde))
+* use inject for REQUEST token - universal ([06c6425](https://github.com/KoderLabs/ngx-device-detector/commit/06c64255f3cbea5ce2dad96b8448f1d5404120bf))
+
+
+### Features
+
+* **angular:** upgrade to angular 14 ([ec1ca8e](https://github.com/KoderLabs/ngx-device-detector/commit/ec1ca8ea2e2fa5ce7499d5cfc758b25f9ec22e92))
+* **ie11:** remove IE11 compatiblity information ([84f0d74](https://github.com/KoderLabs/ngx-device-detector/commit/84f0d744475c8ad6b83f32b161c7e7460687239b))
+* **lib:** moved to angular cli generation ([b55b52c](https://github.com/KoderLabs/ngx-device-detector/commit/b55b52c6d1e5bb0bc70b96c51ad3d29394be5289))
+* **ng5-upgrade:** Updated officially to Angular5 ([194d6fb](https://github.com/KoderLabs/ngx-device-detector/commit/194d6fb5e8ceed5d292345587b7dd93e5f3235de))
+* **ssr-demo:** add ssr demo ([e0cf90a](https://github.com/KoderLabs/ngx-device-detector/commit/e0cf90adcdbcd33d3240fe68e3b2df2c0fc56aa5))
+* **support-ie11:** make necessary changes to have the app run on ie11 ([cbca0c5](https://github.com/KoderLabs/ngx-device-detector/commit/cbca0c559e20cdfee0f955c9070645a17e99ce95))
+
+
+
 ## [4.0.1](https://github.com/KoderLabs/ngx-device-detector/compare/v4.0.0...v4.0.1) (2022-08-18)
 
 

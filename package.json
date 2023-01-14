@@ -25,6 +25,7 @@
     "copy:changelog": "cp CHANGE_LOG.MD ./dist/ngx-device-detector",
     "pre-release": "npm run changelog && npm run lint:fix && npm run copy:readme && npm run build:lib && npm run docs:build && npm run copy:changelog",
     "release": "npm run pre-release && cd dist/ngx-device-detector && npm publish && cd ../../",
+    "release-public": "npm run pre-release && cd dist/ngx-device-detector && npm publish --access public && cd ../../",
     "dev:ssr": "ng run demo:serve-ssr",
     "serve:ssr": "node dist/demo/server/main.js",
     "build:ssr": "ng run demo:server:production && cp -a projects/demo/server/. ./dist/demo",
